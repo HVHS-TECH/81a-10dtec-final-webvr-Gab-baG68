@@ -25,13 +25,26 @@
       position="-5.56754 6.45695 1.8519" 
       rotation="-90 0 0" 
       scale="3.509 1 3.414"
+      animation = "property: position;
+      from:-5.56754 6.45695 1.8519 ;
+      to:-5.56754 7.15035 1.8519;
+      loop: true;
+      dir: alternate;">
+      </a-entity>"
       >
     </a-entity>
 <a-entity 
 ply-model="src: Welcome.ply" 
 position="5.74111 17.72614 0.23738" 
 rotation="-90.00021045914971 -178.72902757090412 0" 
-scale="2.267 2.004 2.656">
+scale="2.267 2.004 2.656"
+animation="
+property: position;
+from: 5.74111 17.72614 0.23738;
+to: 5.74111 18.51597 0.23738;
+loop: true;
+dir: alternate;"
+>
 </a-entity>
 
 <a-entity 
@@ -46,8 +59,65 @@ dur: 2000;
 dir: alternate;
 loop: true;"
 >
-</a-entity>       
-
-  </body>
+</a-entity>
+<a-entity 
+ply-model="src: Citizen.ply"
+position="-8.539 -5.507 6.825"
+rotation="-84.959 0 0"
+scale="3.179 4.289 3.184"
+animation = "property: position;
+from: -8.539 -5.507 6.825;
+to: -8.539 -4 6.825;
+loop: true;
+dir: alternate;">
+</a-entity>      
 </html>
 
+<a-entity 
+ply-model="src: Signal1.ply"
+scale="1.985 1.957 2.625"
+rotation="-90.001 -0.841 -90.072"
+position="-14.221 -5.366 20.458">
+</a-entity>
+
+<a-entity 
+ply-model="src: Wifi1.ply"
+scale="1.734 1.734 1.950"
+rotation="-89.440 0.000 86.995"
+position="-7.924 1.462 25.246"
+animation="
+property: position;
+from: -7.924 1.462 25.246;
+to: -7.924 2 25.246;
+loop: true;
+dir: alternate;">
+</a-entity>
+
+<a-entity 
+ply-model="src: Signal2.ply"
+scale="1.985 1.957 2.625"
+rotation="-90.001 -0.841 -90.072"
+position="14.221 -5.366 20.458">
+</a-entity>
+
+<a-entity 
+ply-model="src: Wifi2.ply"
+scale="1.734 1.734 1.950"
+rotation="-90.001 -0.841 -90.072"
+position="16.922 1.304 24.972"
+animation="
+property: position;
+from: 16.922 1.304 24.972;
+to: 16.922 2 24.972;
+loop: true;
+dir: alternate;">
+</a-entity>
+
+<a-entity
+ply-model="src: Invader1.ply"
+scale="4.534 4.534 4.534"
+rotation="-88.898 0.000 94.944"
+position="-9.491 -10.122 -17.788">
+
+</a-entity>
+</a-scene>
