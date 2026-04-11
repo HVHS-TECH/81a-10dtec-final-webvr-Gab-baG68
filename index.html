@@ -49,12 +49,12 @@ dir: alternate;"
 
 <a-entity 
 ply-model="src: Number Row.ply" 
-position="17.76616 24.2892 -12.98387" 
+position="18.348 3.185 -18.955" 
 rotation="-90.00021045914971 174.7154582160127 0" 
-scale = "5.280 3.824 3.342"
+scale = "5.734 4.811 3.629"
 animation = "property: position;
-from: 17.76616 24.2892 -12.98387;
-to: 17.76616 -7.99836 -12.98387;
+from: 18.348 3.185 -18.955;
+to: 18.348 -6.656 -18.955;
 dur: 2000;
 dir: alternate;
 loop: true;"
@@ -113,11 +113,193 @@ loop: true;
 dir: alternate;">
 </a-entity>
 
-<a-entity
-ply-model="src: Invader1.ply"
-scale="4.534 4.534 4.534"
-rotation="-88.898 0.000 94.944"
-position="-9.491 -10.122 -17.788">
+<a-entity 
+ply-model="src: Invader1.ply" 
+scale="4.534 4.534 4.534" 
+rotation="-88.89783966131802 -4.149933310132552 94.94426327333359" 
+position="-9.491 -7.83267 -17.788"
+animation=
+"property: position;
+from: -9.491 -7.83267 -17.788;
+to: 14.130 -7.833 -17.788;
+loop: true;
+dir: alternate;
+"
+>
+</a-entity>
+
+<a-entity 
+ply-model="src: Invader2.ply" 
+scale="4.534 4.534 4.534" 
+rotation="-88.89783966131803 -4.149933310132552 94.94426327333359"
+position="12.922 -1797 -17.751"
+animation=
+"property: position;
+from: 12.922 -1.797 -17.751;
+to: -9.794 -1.797 -17.751;
+loop: true;
+dir: alternate;
+"
+>
+</a-entity> 
+
+<a-entity 
+ply-model="src: Instructions.ply" 
+scale="0.365 0.365 0.365"
+rotation="-90.080 0 0"
+position="-2.875 1.342 3.163"
+>
+</a-entity>
+
+<a-entity 
+ply-model="src: Dragging.ply" 
+scale="0.365 0.365 0.365"
+rotation="-90.080 0 0"
+position="2.114 1.436 3.221"
+>
+</a-entity>
 
 </a-entity>
+
+<a-entity 
+ply-model="src: Satellite1.ply"
+position="-7.640 22.151 -12.119"
+rotation="-44.539 -3.968 -172.81"
+scale="1.302 1.302 1.302"
+animation="
+property: position;
+from: -7.640 22.151 -12.119;
+to: -7.740 23.162 -11.092;
+loop: true;
+dir: alternate;
+"
+>
+</a-entity>
+
+<a-entity 
+ply-model="src: Satellite2.ply"
+position="9.979 23.033 -10.899"
+rotation="-43.690 0.359 175.716"
+scale="1.302 1.302 1.302"
+animation="
+property: position;
+from: 9.979 23.033 -10.899;
+to: 9.797 24.555 -10.899;
+loop: true;
+dir: alternate;
+"
+>
+</a-entity>
+
+<a-entity 
+ply-model="src: Paddle1.ply" 
+position="-13.3 6.7621 4.338" 
+rotation="-89.383 -1.452 -89.707" 
+scale="1.569 1.633 2.329"
+animation="
+property: position;
+from: -13.3 6.7621 4.338 ;
+to: -13.300 10.867 4.338;
+loop: true;
+dir: alternate;
+"
+>
+</a-entity>
+
+<a-entity 
+ply-model="src: Paddle2.ply" 
+position="-13.3 6.7621 -9.02734" 
+rotation="89.38313491379382 178.65339714194687 89.70685606804273" 
+scale="1.569 1.633 2.329"
+animation="
+property: position;
+from: -13.3 10.867 -9.02734 ;
+to: -13.3 6.7621 -9.02734 ;
+loop: true;
+dir: alternate;
+"
+>
+</a-entity>
+
+<a-entity 
+ply-model="src: PongBal.ply"
+position="-13.627 9.312 -2.882"
+rotation="0 0 0"
+scale="0.528 0.528 0.528"
+animation="
+property: position;
+from: -13.627 11.333 2.027 ;
+to: -13.627 3.510 -8.320;
+loop: true;
+dir: alternate;
+"
+>
+</a-entity>
+
+<a-entity 
+ply-model="src: Drone.ply"
+position="15.940 6.137 25.093"
+scale="0.468 0.468 0.468"
+rotation="-90.120 -0.036 -0.001"
+animation="
+property: position;
+from: 15.940 6.137 25.093;
+to: -7.741 6.137 25.093;
+loop: true;
+dir: alternate;
+dur: 2000;
+"
+>
+</a-entity>
+
+<a-entity
+ply-model="src:Column.ply"
+position="-0.188 -4.722 -0.402"
+rotation="-90.402 0 0"
+scale="4.691 4.691 4.691"
+animation="
+property: position;
+from: -0.188 -4.722 -0.402;
+to: -0.188 -6.036 -0.393;
+loop: true;
+dir: alternate;
+dur: 2000;
+"
+>
+</a-entity>
+
+<!-- No models past this point, this is the lighting section -->
+<a-entity
+rotation="-88.776 0 0"
+position="9.151 5.461 14.148"
+scale="1.000"
+light="color: #001580; 
+type: ambient; 
+castShadow: true" 
+data-aframe-default-light="" 
+aframe-injected=""
+intensity="1.000"
+angle="60.00"
+>
+</a-entity>
+
+<a-entity 
+light="
+color: #1a0080; 
+intensity: 0.6; 
+castShadow: true" 
+position="-0.5 1 1" 
+data-aframe-default-light="" 
+aframe-injected=""
+>
+</a-entity>
+
+<a-entity 
+light="color: #001a80; 
+type: ambient" 
+data-aframe-default-light="" 
+aframe-injected=""
+><
+/a-entity>
+
 </a-scene>
