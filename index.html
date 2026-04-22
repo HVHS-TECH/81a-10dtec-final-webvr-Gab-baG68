@@ -299,7 +299,62 @@ light="color: #001a80;
 type: ambient" 
 data-aframe-default-light="" 
 aframe-injected=""
-><
-/a-entity>
+>
+</a-entity>
+
+<!--Sound is here-->
+
+<a-entity 
+id="drone" 
+geometry="primitive: plane" 
+material="color: indigo"       
+position="-10 0 0" 
+sound="src: url(klemenflerin-drone-fly-397287.mp3); autoplay: true;"
+opacity="0.01"
+animation="
+property: position;
+from: 15.940 6.137 25.093;
+to: -7.741 6.137 25.093;
+loop: true;
+dir: alternate;
+dur: 2000;
+"
+>
+</a-entity>
+
+<a-entity 
+id="satellite1" 
+geometry="primitive: plane" 
+material="color: blue"       
+position="-10 0 0" 
+sound="src: url(freesound_community-satellite-44256.mp3); autoplay: true;"
+opacity="0.01"
+animation="
+property: position;
+from: -7.640 22.151 -12.119;
+to: -7.740 23.162 -11.092;
+loop: true;
+dir: alternate;
+"
+>
+</a-entity>
+
+<a-entity 
+id="satellite2" 
+geometry="primitive: plane" 
+material="color: blue"       
+position="-10 0 0" 
+sound="src: url(freesound_community-satellite-44256.mp3); autoplay: true;"
+opacity="0.01"
+animation="
+property: position;
+from: 9.979 23.033 -10.899;
+to: 9.797 24.555 -10.899;
+loop: true;
+dir: alternate;
+"
+>
+</a-entity>
+
 
 </a-scene>
